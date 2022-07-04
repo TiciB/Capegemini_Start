@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fale conosco</title>
+        <!--Inserindo folha de estilo-->
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function mensagem(){
+            alert("Mensagem enviada com sucesso");
+            }
+        </script>
+    </head>
+    <body>
+         <!--Cabeçalho - menu de navegação das páginas-->
+        <header>
+            <img class="logotipo" src="./imagens/logo.png" alt="logo genérico">
+            
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="sobre.html" target="_self">Sobre mim</a>
+                <a href="contato.html">Fale conosco</a>
+                    
+                <input type="search" name="pesquisa" placeholder="Pesquisar">
+                <button class ="maiusculo" type="submit">Enviar</button>    
+            </nav>
+            
+        </header>
+        <!--Formulário de comunicação-->
+        <main>
+            <h1>Fale conosco</h1>
+            
+            <form>
+                <input type="text" name="nome" placeholder="Nome"> <br />
+                <input type="email" name="email" placeholder="E-mail"> <br />
+                <input type="tel" name="telefone" placeholder="(11) 11111-1111"> <br />
+               <textarea name="msg" cols="30" rows="10">Digite sua mensagem...</textarea>  <br />
+               <button onclick="mensagem()" class ="maiusculo" type="submit">Enviar</button>
+               <button class ="maiusculo" type="reset">Limpar</button>
+            </form>
+            
+        </main>
+        <!--Rodapé da página-->
+        <footer>
+            <nav>
+                <a href="https://www.linkedin.com/">Linkedin</a>
+                <a href="https://github.com/">Github</a>
+                <a href="https://www.instagram.com/">Instagram</a>   
+            </nav>
+            &copy; 2022 - Tici Bezerra
+        </footer>
+    </body>
+</html>
