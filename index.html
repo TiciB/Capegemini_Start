@@ -7,36 +7,50 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-         <!--Cabeçalho - menu de navegação das páginas-->
-        <header>  
-            <nav>
-                <a href="index.html">Inicio</a>
-                <a href="sobre.html" target="_self">Sobre mim</a>
-                <a href="contato.html">Fale conosco</a>
-                    
-                <input type="search" name="pesquisa" placeholder="Pesquisar">
-                <button class ="maiusculo" type="submit">Enviar</button>    
-            </nav>
-        
+        <header class="header-container">
+            <div class="header">
+                <div class="checkbox-container">
+                    <!--menu bolha-->
+                    <div class="checkbox-wrapper">
+                        <input type="checkbox" id="toggler">
+                        <label class="checkbox" for="toggler">
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                            <div class="trace"></div>
+                        </label>
+                        <div class="menu">
+                            <nav class="menu-itens">
+                                <ul>
+                                    <li>
+                                        <a href="./index.html">Inicio</a>
+                                    </li>
+                                    <li>
+                                        <a href="./sobre.html">Sobre</a>
+                                    </li>
+                                    <li>
+                                        <a href="./contato.html">Projetos</a>
+                                    </li>
+                                </ul>
+                                
+                                <img src="./imagens/eucartoon.jpg" alt="minha foto pixelada">
+                                
+
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <h1>TICI BEZERRA</h1>
+            <h2>Desenvolvedora FullStack</h2>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/ticiana-bezerra/">LinkedIn</a>
+                <a href="https://github.com/TiciB">GitHub</a>
+            </div>
+
         </header>
-        
-        <main>
-            <article>
-                <h1>Tici Bezerra</h1>
-            </article>
-         
-           <div class="imagem">
-            <img src="./imagens/eucartoon.jpg" alt="eu em cartoon">
-           </div>
-        </main>
-        <!--Rodapé da página-->
-        <footer>
-                <nav>
-                    <a href="https://www.linkedin.com/">Linkedin</a>
-                    <a href="https://github.com/">Github</a>
-                    <a href="https://www.instagram.com/">Instagram</a>   
-                </nav>    
-            &copy; 2022 - Tici Bezerra
-        </footer>
+        <main></main>
+        <footer></footer>
     </body>
 </html>
